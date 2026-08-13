@@ -1,0 +1,11 @@
+com/prefeiturasegura/utils/QueryBuilder.class
+com/prefeiturasegura/infrastructures/MysqlConnection.class
+com/prefeiturasegura/infrastructures/Database.class
+com/prefeiturasegura/factories/DatabaseConnectionFactory.class
+com/prefeiturasegura/infrastructures/DatabaseConfig.class
+com/prefeiturasegura/valueobjects/Operation.class
+com/prefeiturasegura/interfaces/DatabaseConnectionInterface.class
+com/prefeiturasegura/Main.class
+com/prefeiturasegura/infrastructures/PostgresConnection.class
+com/prefeiturasegura/utils/QueryBuilder$1.class
+com/prefeiturasegura/infrastructures/Database$Holder.class

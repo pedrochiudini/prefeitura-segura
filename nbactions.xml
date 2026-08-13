@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>run</actionName>
+            <packagings>
+                <packaging>jar</packaging>
+            </packagings>
+            <goals>
+                <goal>exec:java</goal>
+            </goals>
+            <properties>
+                <exec.vmArgs></exec.vmArgs>
+                <exec.args>${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}</exec.args>
+                <exec.appArgs></exec.appArgs>
+                <exec.mainClass>${packageClassName}</exec.mainClass>
+                <exec.executable>java</exec.executable>
+                <Env.DB_HOST>db.sjrctqohfszkbmbcxlmb.supabase.co</Env.DB_HOST>
+                <Env.DB_PORT>5432</Env.DB_PORT>
+                <Env.DB_NAME>postgres</Env.DB_NAME>
+                <Env.DB_USER>postgres</Env.DB_USER>
+                <Env.DB_PASSWORD>lgpdsystempmva</Env.DB_PASSWORD>
+                
+                
+                
+                
+                
+            </properties>
+        </action>
+    </actions>
